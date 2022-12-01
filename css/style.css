@@ -215,12 +215,21 @@ section h2 {
   padding: 10px;
 }
 
-/* Movie Details */
+/* Movie & Show Details */
 .details-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 50px 0 30px;
+}
+
+@media (max-width: 700px) {
+  .details-top {
+    display: block;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: #ccc solid 1px;
+  }
 }
 
 .details-top img {
